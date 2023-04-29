@@ -1,7 +1,7 @@
 function calculateTip(event) {
   event.preventDefault();
   let bill =  document.getElementById('bill').value;
-  let serviceQual =  document.getElementById('serviceQual').value;
+  let serviceQual =  document.querySelector('#servicequal').value;
   let numOfpeople =  document.getElementById('people').value;
   
   if(bill == '' | serviceQual == 0){
